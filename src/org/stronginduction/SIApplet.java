@@ -4,7 +4,7 @@ package org.stronginduction;
  * Class name:          SIApplet
  * Class description:   Strong Induction Applet, with refresher
  * 
- * @author              Man Fong
+ * @author              mlfong
  */
 
 import java.awt.*;
@@ -150,7 +150,6 @@ public class SIApplet extends JApplet
         ebHandler = new ExitButtonHandler();
         exitB.addActionListener(ebHandler);
 
-        // setTitle("Strong Induction by Man Fong");
         question = new JLabel("Prove that every " + qtype + " greater than "
                 + (minBasis - 1) + " can be made up of only " + small + " "
                 + mtype + " and " + big + " " + mtype + ".");

@@ -4,7 +4,7 @@ package org.stronginduction;
  * Class description:	Integer autoboxer
  * 						Allows passing by reference
  *  
- * @author 				Man Fong
+ * @author 				mlfong
  *
  */
 public class MyInt

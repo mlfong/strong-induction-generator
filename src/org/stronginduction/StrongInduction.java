@@ -3,7 +3,7 @@ package org.stronginduction;
  * Class name:			StrongInduction
  * Class description:	Generates a strong induction problem
  * 
- * @author 				Man Fong
+ * @author 				mlfong
  */
 
 import java.awt.*;
@@ -143,7 +143,7 @@ public class StrongInduction extends JFrame
 		ebHandler = new ExitButtonHandler();
 		exitB.addActionListener(ebHandler);
 
-		setTitle("Strong Induction by Man Fong");
+		setTitle("Strong Induction by mlfong");
 		question = new JLabel("Prove that every " + qtype + " greater than " + (minBasis - 1) + 
 				" can be made up of only " + small + " " + mtype + " and " + big + " " + mtype + ".");
 		question.setBounds(10, 11, 864, 27);
