@@ -9,5 +9,5 @@ A postage / dollar amount problem generator. Exercises knowledge of strong induc
 
 ## clone instructions
 
-    $ git clone git@github.com:mlfong/strong-induction-generator.git
+    $ git clone https://github.com/mlfong/strong-induction-generator.git
 
